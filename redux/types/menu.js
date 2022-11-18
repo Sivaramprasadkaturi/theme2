@@ -1,0 +1,6 @@
+export const READ_MENU = "READ_MENU";
+export const MENU_ERROR = "MENU_ERROR";
+export const CLEAR_MENU = "CLEAR_MENU";
+export const START_MENU_RELOAD = "START_MENU_RELOAD";
+export const FINISHED_MENU_RELOAD = "FINISHED_MENU_RELOAD";
+export const SWITCH_BANNER_STATE = "SWITCH_BANNER_STATE";

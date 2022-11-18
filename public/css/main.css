@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "sqr721bext";
+  src: url(../fonts/sqr721bext/sqr721bext.woff) format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "sqr721ext";
+  src: url(../fonts/sqr721ext/sqr721ext.woff) format("woff");
+  font-display: swap;
+}
+
+:root {
+  --text-color: #333;
+  --text-color-light: #666;
+  --primary-color: #e21a23;
+  --secondary-color: #2aa841;
+  --font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
+
+/* #__next {
+  overflow: hidden;
+} */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}

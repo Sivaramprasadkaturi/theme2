@@ -1,0 +1,701 @@
+{
+  "customerid": "",
+  "id": "287870",
+  "code": "AINCGUXES0",
+  "title": "PW030021-BC",
+  "longdesc": "",
+  "properties": [
+    {
+      "itemid": 0,
+      "propdesc": "ADA",
+      "propgroup": "Compliances",
+      "propid": 0,
+      "propname": "specC_ADA",
+      "propnumber": 111,
+      "propvalue": "Yes"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CERTIFICATION",
+      "propgroup": "Certification Info",
+      "propid": 0,
+      "propname": "specC_Certification",
+      "propnumber": 10,
+      "propvalue": "cETLus"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CERTIFICATION NUMBER",
+      "propgroup": "Certification Info",
+      "propid": 0,
+      "propname": "specC_Certification_Number",
+      "propnumber": 11,
+      "propvalue": "5003080"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CERTIFICATION TYPE",
+      "propgroup": "Certification Info",
+      "propid": 0,
+      "propname": "specC_Certification_Type",
+      "propnumber": 12,
+      "propvalue": "Damp Location"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "sL Certified",
+      "propgroup": "Compliances",
+      "propid": 0,
+      "propname": "specC_social_Certified",
+      "propnumber": 13,
+      "propvalue": "Level1"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "ASSEMBLY DETAILS",
+      "propgroup": "More Information",
+      "propid": 0,
+      "propname": "specD_Assembly_Description",
+      "propnumber": 14,
+      "propvalue": "No Assembly, just simply unbox and install to desired area."
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CANOPY DESCRIPTION",
+      "propgroup": "Fixture Details",
+      "propid": 0,
+      "propname": "specD_Canopy_Description",
+      "propnumber": 57,
+      "propvalue": "Sleek round brushed champagne finished canopy. Small non visible set screws to secure to wall."
+    },
+    {
+      "itemid": 0,
+      "propdesc": "FINISH DETAILS",
+      "propgroup": "Fixture Details",
+      "propid": 0,
+      "propname": "specD_Finish_Details",
+      "propnumber": 15,
+      "propvalue": "Our hand painted brushed champagne aluminum finish is a lighter styled gold with mild bronze undertones. Modern styled finish which is suitable for all types of home décor themes."
+    },
+    {
+      "itemid": 0,
+      "propdesc": "MATERIAL",
+      "propgroup": "Finish & Color",
+      "propid": 0,
+      "propname": "specD_Finish_Material",
+      "propnumber": 16,
+      "propvalue": "Aluminum"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "PARTS w/FINISH",
+      "propgroup": "Finish & Color",
+      "propid": 0,
+      "propname": "specD_Finish_Parts",
+      "propnumber": 17,
+      "propvalue": "All Metal Details"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "FINISH PROCESS",
+      "propgroup": "Finish & Color",
+      "propid": 0,
+      "propname": "specD_Finish_Process",
+      "propnumber": 239,
+      "propvalue": "Anodized"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "OPTICS",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specD_Optics",
+      "propnumber": 18,
+      "propvalue": "Diffuser"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "OPTICS COLOR",
+      "propgroup": "Finish & Color",
+      "propid": 0,
+      "propname": "specD_Optics_Color",
+      "propnumber": 19,
+      "propvalue": "White"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "OPTICS DETAILS",
+      "propgroup": "Fixture Details",
+      "propid": 0,
+      "propname": "specD_Optics_Details",
+      "propnumber": 20,
+      "propvalue": "Integrated top & bottom frosted white clear acrylic diffusers."
+    },
+    {
+      "itemid": 0,
+      "propdesc": "OPTICS FEATURE",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specD_Optics_Feature",
+      "propnumber": 21,
+      "propvalue": "Frosted"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "OPTICS MATERIAL",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specD_Optics_Material",
+      "propnumber": 22,
+      "propvalue": "Acrylic"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "BULBS INCLUDED",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specI_Bulbs_Included",
+      "propnumber": 23,
+      "propvalue": "Yes - Integrated LED"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "MADE IN",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specI_Country_Origin",
+      "propnumber": 24,
+      "propvalue": "China"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "FINISH",
+      "propgroup": "Finish & Color",
+      "propid": 0,
+      "propname": "specI_Finish",
+      "propnumber": 25,
+      "propvalue": "Brushed Champagne"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "TYPE",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specI_Type_Fixture",
+      "propnumber": 28,
+      "propvalue": "LED"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "UPC, BARCODE",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specI_UPC",
+      "propnumber": 29,
+      "propvalue": "840189005683"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "WARRANTY",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specI_Warranty",
+      "propnumber": 30,
+      "propvalue": "7 Years"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CANOPY MEASUREMENTS",
+      "propgroup": "Measurement & Weight",
+      "propid": 0,
+      "propname": "specM_Format_Canopy",
+      "propnumber": 69,
+      "propvalue": "Canopy4"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INSTALLED MEASUREMENTS",
+      "propgroup": "Measurement & Weight",
+      "propid": 0,
+      "propname": "specM_Format_Fixture",
+      "propnumber": 31,
+      "propvalue": "Vanity1"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CRI",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specP_CRI",
+      "propnumber": 39,
+      "propvalue": "≥90"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "DELIVERED LUMENS",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specP_Delivered_Lumens",
+      "propnumber": 40,
+      "propvalue": "365"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INITIAL LUMENS",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specP_Initial_Lumens",
+      "propnumber": 41,
+      "propvalue": "840"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "KELVIN",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specP_Kelvin",
+      "propnumber": 42,
+      "propvalue": "3000"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "MAX WATTAGE",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specP_Max_Wattage",
+      "propnumber": 43,
+      "propvalue": "10"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "VOLTAGE",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specP_Voltage",
+      "propnumber": 44,
+      "propvalue": "100~130"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "DIMMABLE",
+      "propgroup": "Dimming Info",
+      "propid": 0,
+      "propname": "specT_Dimmable",
+      "propnumber": 45,
+      "propvalue": "Yes"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "TYPE OF DIMMER",
+      "propgroup": "Dimming Info",
+      "propid": 0,
+      "propname": "specT_Dimmer_Type",
+      "propnumber": 104,
+      "propvalue": "ELV or Triac (not included)"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "DIMMING PERCENT",
+      "propgroup": "Dimming Info",
+      "propid": 0,
+      "propname": "specT_Dimming_Percent",
+      "propnumber": 105,
+      "propvalue": "100% to 10%"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "DRIVER TYPE",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specT_Driver",
+      "propnumber": 46,
+      "propvalue": ""
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INSTALL POSITION",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specT_Install_Positon",
+      "propnumber": 116,
+      "propvalue": "Vertically"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "LAMPING",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specT_Lamping",
+      "propnumber": 47,
+      "propvalue": "Integrated LED"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "LED LIFESPAN",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specT_LED_Lifespan",
+      "propnumber": 48,
+      "propvalue": "50,000 hrs"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "LIGHT DIRECTION",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specT_Light_Direction",
+      "propnumber": 49,
+      "propvalue": "Surrounding Light"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "MOUNTING TYPES",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specT_Mounting_Types",
+      "propnumber": 106,
+      "propvalue": "Standard 4&quot; x 4&quot; Junction Box"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "NUMBER OF BULBS / LIGHTS",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specT_Number_of_Bulb_Lights",
+      "propnumber": 50,
+      "propvalue": "LED Integrated"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "REQUIRES ASSEMBLY",
+      "propgroup": "General Info",
+      "propid": 0,
+      "propname": "specT_Requires_Assembly",
+      "propnumber": 51,
+      "propvalue": "No"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "Desiged By:",
+      "propgroup": "Product",
+      "propid": 0,
+      "propname": "temp_Designer_Name",
+      "propnumber": 52,
+      "propvalue": "Steven Sun"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "Extended Family",
+      "propgroup": "Product",
+      "propid": 0,
+      "propname": "temp_Family_Extended_Name",
+      "propnumber": 54,
+      "propvalue": ""
+    },
+    {
+      "itemid": 0,
+      "propdesc": "Fixture Style:",
+      "propgroup": "Product",
+      "propid": 0,
+      "propname": "temp_Fixture_Style",
+      "propnumber": 55,
+      "propvalue": "Contemporary"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "UPC",
+      "propgroup": "",
+      "propid": 0,
+      "propname": "UPC",
+      "propnumber": 8,
+      "propvalue": "840189005683"
+    }
+  ],
+  "hiddenProperties": [
+    {
+      "itemid": 0,
+      "propdesc": "",
+      "propgroup": "",
+      "propid": 0,
+      "propname": "Created_By_Supplier",
+      "propnumber": 236,
+      "propvalue": "20210223730"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "createtime",
+      "propgroup": "",
+      "propid": 0,
+      "propname": "createtime",
+      "propnumber": 6,
+      "propvalue": "2021-02-24 14:42:30"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "by BRAND",
+      "propgroup": "Facet",
+      "propid": 0,
+      "propname": "facet_Brand",
+      "propnumber": 7,
+      "propvalue": "PageOne Lighting"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CANOPY SHAPE",
+      "propgroup": "Facet",
+      "propid": 0,
+      "propname": "facet_Canopy_Shape",
+      "propnumber": 237,
+      "propvalue": "Round"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "QTY OF LIGHTS",
+      "propgroup": "Facet",
+      "propid": 0,
+      "propname": "facet_Light_Totals",
+      "propnumber": 238,
+      "propvalue": "LED Integrated"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "IMAGE NOTES:",
+      "propgroup": "Product",
+      "propid": 0,
+      "propname": "specI_Image_Notes",
+      "propnumber": 26,
+      "propvalue": ""
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CANOPY DIAMETER",
+      "propgroup": "Measurement Data",
+      "propid": 0,
+      "propname": "specM_Canopy_Diameter_Decimals",
+      "propnumber": 109,
+      "propvalue": "4.7"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CANOPY DIAMETER",
+      "propgroup": "Measurement Data",
+      "propid": 0,
+      "propname": "specM_Canopy_Diameter_Fractions",
+      "propnumber": 110,
+      "propvalue": "4-2/3"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CANOPY EXTENSION",
+      "propgroup": "Measurement Data",
+      "propid": 0,
+      "propname": "specM_Canopy_Extention_Decimals",
+      "propnumber": 112,
+      "propvalue": "0.625"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "CANOPY EXTENSION",
+      "propgroup": "Measurement Data",
+      "propid": 0,
+      "propname": "specM_Canopy_Extention_Fractions",
+      "propnumber": 113,
+      "propvalue": "5/8"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INSTALL EXTENTION",
+      "propgroup": "Measurement Data",
+      "propid": 0,
+      "propname": "specM_Install_Extention_Decimals",
+      "propnumber": 114,
+      "propvalue": "3"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INSTALL EXTENTION",
+      "propgroup": "Measurement Data",
+      "propid": 0,
+      "propname": "specM_Install_Extention_Fractions",
+      "propnumber": 115,
+      "propvalue": "3"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INSTALL HEIGHT",
+      "propgroup": "Measurement Data",
+      "propid": 0,
+      "propname": "specM_Install_Height_Decimals",
+      "propnumber": 34,
+      "propvalue": "4.7"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INSTALL HEIGHT",
+      "propgroup": "Measurement Data",
+      "propid": 0,
+      "propname": "specM_Install_Height_Fractions",
+      "propnumber": 35,
+      "propvalue": "4-7/10"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INSTALL LENGTH",
+      "propgroup": "Measurement Data",
+      "propid": 0,
+      "propname": "specM_Install_Length_Decimals",
+      "propnumber": 70,
+      "propvalue": "21.7"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INSTALL LENGTH",
+      "propgroup": "Measurement Data",
+      "propid": 0,
+      "propname": "specM_Install_Length_Fractions",
+      "propnumber": 71,
+      "propvalue": "21-7/10"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INSTALLED WEIGHT",
+      "propgroup": "Measurement & Weight",
+      "propid": 0,
+      "propname": "specM_Install_Weight_Kilograms",
+      "propnumber": 36,
+      "propvalue": "1.5014"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "INSTALLED WEIGHT",
+      "propgroup": "Measurement & Weight",
+      "propid": 0,
+      "propname": "specM_Install_Weight_Pounds",
+      "propnumber": 37,
+      "propvalue": "3.31"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "",
+      "propgroup": "",
+      "propid": 0,
+      "propname": "Supplier_Item_Code",
+      "propnumber": 9,
+      "propvalue": "PW030021-BC"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "",
+      "propgroup": "",
+      "propid": 0,
+      "propname": "Sys_Num_Images",
+      "propnumber": 5,
+      "propvalue": "3"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "Family",
+      "propgroup": "Product",
+      "propid": 0,
+      "propname": "temp_Family",
+      "propnumber": 53,
+      "propvalue": "Gianni"
+    },
+    {
+      "itemid": 0,
+      "propdesc": "attachement_specs",
+      "propgroup": "attachments",
+      "propid": 0,
+      "propname": "attachement_specs",
+      "propnumber": 242,
+      "propvalue": "9609P6-1-126-specSheet.pdf"
+    }
+  ],
+
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "WALL & VANITY",
+      "url": "/by-brand"
+    }
+  ],
+  "frequentlyBoughtTogether": [],
+  "accessories": [],
+  "alsoLike": [],
+  "reviews": [
+    {
+      "reviewid": "242",
+      "rating": "4",
+      "date": "April 01 2021",
+      "title": "Test Review",
+      "author": "Jane",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "image": ""
+    },
+    {
+      "reviewid": "242",
+      "rating": "4",
+      "date": "April 01 2021",
+      "title": "Test Review",
+      "author": "Jane",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "image": ""
+    },
+    {
+      "reviewid": "242",
+      "rating": "3",
+      "date": "March 23 2021",
+      "title": "Another Test Review",
+      "author": "John",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "image": ""
+    }
+  ],
+  "productFamily": [
+    {
+      "familyName": "CHANDELIERS",
+      "numOfItems": "1",
+      "products": [
+        {
+          "id": "287866",
+          "name": "PP020109-BC",
+          "thumb": "/20180522154/assets/items/thumbnails/AIN3DK64C0.jpg",
+          "price": "1749.3000000000002"
+        }
+      ]
+    },
+    {
+      "familyName": "PENDANTS",
+      "numOfItems": "4",
+      "products": [
+        {
+          "id": "287862",
+          "name": "PP020112-BC",
+          "thumb": "/20180522154/assets/items/thumbnails/AINQZB4PL2.jpg",
+          "price": "716.1"
+        },
+        {
+          "id": "287863",
+          "name": "PP020113-BC",
+          "thumb": "/20180522154/assets/items/thumbnails/AINV1Y29J2.jpg",
+          "price": "522.9"
+        },
+        {
+          "id": "287864",
+          "name": "PP020111-BC",
+          "thumb": "/20180522154/assets/items/thumbnails/AINNE7L770.jpg",
+          "price": "1155.0"
+        },
+        {
+          "id": "287865",
+          "name": "PP020110-BC",
+          "thumb": "/20180522154/assets/items/thumbnails/AIN6Q6LN90.jpg",
+          "price": "1463.7"
+        }
+      ]
+    }
+  ]
+}

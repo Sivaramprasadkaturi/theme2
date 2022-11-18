@@ -1,0 +1,41 @@
+.crumbWrapper,
+.crumbCancelWrapper {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.crumbWrapper > span {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 5px 15px;
+  font-size: 13px;
+  color: #333;
+  background: #f0f0f0;
+  border-radius: 45px;
+  margin-bottom: 12px;
+}
+
+.crumbCancelWrapper > span {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 5px 15px;
+  font-size: 13px;
+  color: #f0f0f0;
+  background: #333;
+  border-radius: 45px;
+  margin-bottom: 12px;
+}
+
+.crumbWrapper svg,
+.crumbCancelWrapper svg {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.facetCrumbRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}

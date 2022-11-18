@@ -1,0 +1,50 @@
+.container {
+  display: none;
+}
+
+.container.initialized {
+  display: block;
+}
+.wrapper {
+  height: 0px;
+  width: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+  position: absolute;
+  top: 35px;
+  background: rgb(85, 85, 85);
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.wrapper.active {
+  height: 140px;
+  width: 170px;
+  padding: 30px 10px;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+  margin-top: 7px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.display:hover {
+  text-decoration: underline;
+}
+
+.wrapper select {
+  width: 100%;
+  border: 1px solid #fff;
+  font-size: 1.1rem;
+  border-radius: 3px;
+  background-color: rgb(85, 85, 85);
+  color: #fff;
+}
+
+.wrapper select option {
+}

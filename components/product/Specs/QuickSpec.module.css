@@ -1,0 +1,31 @@
+.specWrapper {
+  display: flex;
+  padding: 12px 10px;
+  font-size: 12px;
+  color: #333;
+}
+
+.specWrapper:nth-child(4n + 1),
+.specWrapper:nth-child(4n + 3) {
+  background-color: #f0f0f0;
+}
+
+.title {
+  margin-top: 45px;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.specName {
+  font-weight: 500;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.quickSpecsList {
+  margin-bottom: 35px;
+  /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  /* grid-gap: 0 50px; */
+}

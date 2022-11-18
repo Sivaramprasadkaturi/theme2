@@ -1,0 +1,80 @@
+.wrapper {
+    display: inline-block;
+    padding: 30px;
+    background: #f7f7f7;
+    width: 100%;
+}
+
+.twoColumns {
+    display: grid;
+}
+
+.specGroupWrapper {
+    margin-bottom: 30px;
+}
+
+.specGroup {
+    display: block;
+    color: #2aa841;
+    margin-bottom: 15px;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.specList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+    padding: 10px 0;
+    margin-bottom: 0 !important;
+}
+
+.specsUl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.specList:nth-child(2n+1) {
+    /* background-color: #f0f0f0; */
+}
+
+.specList2 {
+    display: grid;
+    grid-template-columns: 22% auto;
+    grid-gap: 3%;
+    padding: 7px 0;
+}
+
+.specName {
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.specName::first-letter {
+    text-transform: capitalize;
+}
+
+.specValue {
+    font-size: 0.7em;
+}
+
+.hr {
+    border: 0.8px solid lightgray !important;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        padding: 15px;
+    }
+    .specsUl {
+        grid-template-columns: 1fr;
+    }
+    .specList2 {
+        display: block;
+    }
+    .specName {
+        padding-bottom: 10px;
+    }
+}

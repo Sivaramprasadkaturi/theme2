@@ -1,0 +1,7 @@
+.wrapper[open] {
+  display: block;
+}
+
+.wrapper {
+  display: none;
+}

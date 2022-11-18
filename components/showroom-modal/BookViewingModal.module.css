@@ -1,0 +1,209 @@
+.wrapper {
+}
+
+.contentWrapper {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  grid-gap: 40px;
+}
+
+.body {
+  /*  width: 70%;
+  height: 70%; */
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  max-width: 90%;
+}
+
+.body i {
+  cursor: pointer;
+  position: absolute;
+  right: -18px;
+  top: -18px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.body i:hover {
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #2aa841;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.title span {
+  /* font-size: large; */
+}
+
+.distributorContent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.image {
+  /* height: 170px; */
+  float: left;
+}
+
+.image img {
+  max-width: 100% !important;
+  max-height: auto;
+}
+
+.info {
+  padding-top: 20px;
+}
+
+.info > div {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contactText {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #333;
+  line-height: 20px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #333;
+  line-height: 20px;
+}
+
+
+.textArea {
+  height: 150px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.contactPreferenceWrapper input,
+.contactPreferenceWrapper input[type="text"],
+.contactPreferenceWrapper input[type="checkbox"] {
+  border: none;
+  height: unset;
+  width: unset;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.contactPreferenceWrapper input[type="text"] {
+  height: 2em;
+  border: 1px solid #c8c8c8;
+  /* margin-left: 10px; */
+}
+
+.datePickerWrapper {
+  margin: 15px 0;
+}
+
+.datepicker.datepicker-inline {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.datepicker table tr td.active:active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active {
+  background-color: #fe4f00 !important;
+  border-color: #fe4f00 !important;
+}
+
+.checkboxWrapper {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.btnWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  margin-top: 40px;
+}
+
+@media all and (max-width: 768px) {
+  .distributorContent {
+    flex-wrap: wrap;
+  }
+
+  .info {
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+.meetingCancelBtn,
+.meetingConfirmBtn {
+  background: 0 0;
+  border: none;
+  /* border-radius: 2px; */
+  color: #ffffff !important;
+  position: relative;
+  height: 36px;
+  min-width: 64px;
+  padding: 0 18px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  overflow: hidden;
+  outline: 0;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 36px;
+  /* text-transform: uppercase; */
+}
+
+.meetingCancelBtn:hover,
+.meetingConfirmBtn:hover {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.meetingCancelBtn {
+  background-color: #fe4f00;
+}
+
+.meetingConfirmBtn {
+  background-color: #333;
+}

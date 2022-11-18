@@ -1,0 +1,17 @@
+.wrapper {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  align-items: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100% !important;
+  margin: 5px 0px;
+  padding: 5px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}

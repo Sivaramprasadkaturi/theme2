@@ -1,0 +1,5 @@
+.wrapper {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 20px 24px;
+}

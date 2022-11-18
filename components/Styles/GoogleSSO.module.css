@@ -1,0 +1,53 @@
+.loginForm {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.loginInputContainer {
+  padding: 10px;
+}
+.forgotPasswordLink {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.allServices {
+  padding: 10px;
+}
+
+.loginContainer {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginWrapper {
+  width: 100%;
+}
+
+.googleSSO {
+  width: 100%;
+  box-shadow: none !important;
+  border: 1px solid lightgray !important;
+  border-radius: 0px !important;
+  margin: 1em 0;
+  justify-content: center;
+  cursor: pointer !important;
+}
+
+.googleSSO:hover {
+  color: #222 !important;
+}
+
+.googleSSO > span {
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+}
+
+@media all and (max-width: 768px) {
+  .loginForm {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

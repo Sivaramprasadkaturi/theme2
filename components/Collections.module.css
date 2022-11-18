@@ -1,0 +1,41 @@
+.collectionCard {
+  border: 1px solid #c8c8c8;
+  margin: 20px;
+  min-height: 250px;
+  position: relative;
+  cursor: pointer;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.collectionCardImg {
+  width: 100%;
+  /* position: absolute; */
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.collectionText {
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  color: #4a4a4a;
+  line-height: initial;
+  padding: 10px;
+  background-color: #eff4fa;
+  display: flex;
+  min-height: 60px;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+  .collectionText {
+    font-size: 17px !important;
+  }
+}

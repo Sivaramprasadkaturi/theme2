@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "avetti-admin",
+  "private_key_id": "b045f98d65ab0952a428210e0aae084882463222",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC4b7RR6eh/JtHA\nxFZH8EZ2AL1dLyjdEJAV4R3atlHi9l/JND4hvpj04EzKEGrU5jq1VJix7cpe0l20\ngeoXZ2AuCs3XkKwEuFBkhb07NCt3iEPkJVgt+C2rgXdxo7uxkzIwZmaCGT6lTw87\nuaxao17aelgCOKI0uY7VD2IkxS8/VQAjM+wdcDOh+si2x7K+zP/rjpMEFOihfq8z\n2VUNMoU0oGaUgRaCOj/q+wItNG5cfbqHAwc78EAwwMXgcVtbeQN0twV0ei29acNv\nOY6jOJ1U/Grbg0uoo1iNTZeOBdM1Ueh18OhMd/Ne0U9KEJrY9o2vJvBOr3DB0yYb\nXzrZ6qBfAgMBAAECggEAKQQaf0779+77nZlsMLJkEREIC8WVmlf5GwyFtaJvIoC0\n+4tlN97pqCeLnDI7d949dx75mDQwGZdB5IcxtoO0VXjsnwBa6O/OXRSK6TQoaHxC\n0OVnL03uZiI0HG8TqiF4e2ACcvNHRb8HvboEdOG5EfA8Sz4qAHy1oXc61b+OStBs\n4WFq9UbgQqPum/5tszkpYTcvMmtVnEcKzvIzACQU16bCf1bZll7rXvmdMo66TSke\nwFBxEgRMnXyLsHJ03trZrLH335WyM7u2Lyjexca6VanRPclIVc9eXsg/37CaoaBO\na5TVR36/+G2TeBNez9g9ysXfWN7La2P9e5uzzZraCQKBgQDtZoiunHPvusKcRG/A\nZVehlYftCPqsJV3VedT1bHQEtK+phdogDxBTp/XA3CV6OvCj84qz5qaSMwhfC3kc\nI/wQsbeQ2heqJ4cl29CgFNEVYbo67sZ13gEmhm4ovxXjCxAiDWPOd18LyV7pv5vD\nHfcEFN2J+M/gw3eirhjJAwh1+QKBgQDG4uKL1wn02hqUxBuL2L7AwSUAiPcNnqQG\nGsg5MJu0xNZGOpEzd26SN5GGjfdSj+L285l2uipb7DkLStzpC+oWYfC8IGLr918/\nuEuXQYpRAlFbL3LkuFhL7rXK3f/j5pSTRSUFu3yzSjTplR8Df5w5F/X7V91KoF6A\na+kfsQ3/FwKBgCNsYErFt5r24CEXKSGpPYkz2cNpypWzQawf8MHqO+mT2H5QJbsQ\n5FvHPSlY8BKsBspABdtQOFyqVr5v5NNpHyySiBSKJmvSWB0zDo9Ea+pn2bT/egeO\nZ9eKyZc05Bwrw22BV/ov37PPiWURnTlhGEG4p1H2GXatVAWnOrWLyVBpAoGAMwN7\nLHdJ3H4dF0996U79Dp/8B7kZ9WpdlBtGhDTNm35pn7XiDJtzxxltwF+lso2pn8I3\n+NYji1R6BUV8iGI/9uHER9zewru+uK9i5DcxbTn0+Dihdb07GK7v/ksXGbPJJEU2\nC9RdVfeQvuE7BUC0J4jX1VJiNoQP+Uy0jSZy+p0CgYAwR6hztvl27wUgnFb3jWBy\nSytKfJ6tbctKoSp6ArbZNhNC5c+56zCn8u685M/zqV5/vqTut+B2i71zXSEQZagm\nRV/4KCa4rH/K7SpX8xyoe6nSjyQ2+np9mzTuTU4kxOTsFYzmKKjtHnY1t8RgvVng\nmP3CsozzuVo+qLGYhv6TJQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-888@avetti-admin.iam.gserviceaccount.com",
+  "client_id": "118181583819854688835",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-888%40avetti-admin.iam.gserviceaccount.com"
+}

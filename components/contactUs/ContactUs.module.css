@@ -1,0 +1,103 @@
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 30px;
+}
+
+.mainContent {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+}
+
+.contentLeft {
+  padding-right: 50px;
+}
+
+.contentRight  {
+  padding-left: 50px;
+  border-left: 1px solid #ccc;}
+
+.contentRight iframe {
+  width: 100%;
+  min-height: 1000px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.botBorder {
+  border-top: 1px solid #333;
+}
+
+.moreInfoTitle {
+  margin-bottom: 30px;
+}
+
+.accordionContent > ul > li {
+  font-size: 13px;
+  color: #666;
+  cursor: pointer;
+  padding: 3px 6px;
+}
+
+.p {
+  margin-bottom: 44px;
+}
+
+.form > label {
+  width: 100%;
+  color: #666;
+}
+
+.form > input {
+  border-bottom: 1px solid #333 !important;
+}
+
+.form > select {
+  display: block !important;
+  margin: 20px 0;
+  border: 1px solid #333;
+}
+
+.btn {
+  background: #333;
+  padding: 12px 40px;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    margin-top: 125px;
+  }
+  .mainContent {
+    display: block;
+  }
+  .contentLeft {
+    padding-right: 0;
+  }
+  .contentRight {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2559px) {
+  .wrapper {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .wrapper {
+    width: 60%;
+  }
+}

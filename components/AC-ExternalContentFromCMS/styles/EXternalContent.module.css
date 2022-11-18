@@ -1,0 +1,32 @@
+.category-content h1, .category-content h2, .category-content h3, .category-content h4, .category-content h5 {
+    line-height: 2.5em;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-weight: 700;
+}
+.category-content p {
+    line-height: 1.5em;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.category-content blockquote {
+    border-left: 2px solid lightgrey;
+    padding-left: 10px;
+}
+.category-content ul li, .category-content ol li {
+    margin-left: 40px;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+.category-content ul {
+    margin-bottom: 15px;
+}
+.category-content ul li {
+    list-style-type: disc;
+}
+.category-content ol li {
+    list-style-type: decimal;
+}
+

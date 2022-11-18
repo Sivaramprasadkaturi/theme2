@@ -1,0 +1,141 @@
+.facetsContent.mobile {
+  height: 0;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.facetsContent.mobile.active {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0 !important;
+  width: 100%;
+  z-index: 22222;
+  overflow: auto;
+  padding: 58px 5% 0 !important;
+  background-color: #f5f5f5;
+}
+
+.contentHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #666;
+  color: #fff;
+  font-weight: 600;
+  z-index: 33;
+}
+
+.contentHeader h4 {
+  display: flex;
+  padding: 10px 5%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  line-height: normal;
+  font-size: 1.2rem;
+}
+
+.facetTitleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #868686;
+  padding: 10px !important;
+}
+
+.facetTitleWrapper:last-child {
+  border-bottom: none;
+}
+
+.facetTitle {
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555 !important;
+}
+
+.facetFilterWrapper {
+  display: none;
+  max-height: 0;
+  overflow-y: auto;
+
+  scrollbar-width: thin;
+  scrollbar-color: #666 #ccc;
+}
+
+.facetFilterWrapper.active {
+  display: unset;
+  margin-top: 10px;
+  max-height: 250px;
+  width: 100%;
+}
+
+.facetFilterContent:not(:last-of-type) {
+  margin-bottom: 5px;
+}
+
+.facetFilterContent > li {
+  letter-spacing: normal;
+  line-height: normal;
+  display: inline-flex;
+  vertical-align: top;
+  align-items: center;
+}
+
+.checkmarkBox {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  margin: -2px 8px 0 0 !important;
+  border: 1px solid #737373;
+  border-radius: 1px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #eee;
+}
+.checkmarkBox:hover {
+  background: #ccc;
+}
+
+.checkmarkBox.checked:after {
+  content: "\2713";
+  display: block;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  -webkit-transform: translate(-60%, -50%);
+  transform: translate(-60%, -50%);
+  color: #fe4f00;
+  font-size: 16px;
+  font-weight: 600;
+  left: 77%;
+  top: 33%;
+}
+
+.productText {
+  letter-spacing: normal;
+  font-weight: 400;
+}
+
+.productCount {
+  font-size: 0.8rem;
+  margin-left: 8px;
+}

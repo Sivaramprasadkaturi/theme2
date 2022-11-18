@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.list {
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform, transition;
+}
+
+.item {
+}
+
+.arrowBtn {
+  color: #fff;
+  position: absolute;
+  font-size: 2rem;
+  outline: 0;
+  border-radius: 35px;
+  border: 0;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  z-index: 1;
+}
+
+.leftArrow {
+  left: 2%;
+}
+
+.rightArrow {
+  right: 2%;
+}
+
+.arrowBtn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}

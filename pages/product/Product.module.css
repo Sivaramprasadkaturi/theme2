@@ -1,0 +1,62 @@
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contentWrapper {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-column-gap: var(--gutter-width);
+  -webkit-column-gap: var(--gutter-width);
+  -moz-column-gap: var(--gutter-width);
+  column-gap: var(--gutter-width);
+  padding: 0 var(--padding-x);
+  --gutter-width: 32px;
+  margin-top: 30px;
+}
+
+.leftSection {
+  grid-column: span 11 / auto;
+}
+
+.rightSection {
+  grid-column: 12/-1;
+  position: relative;
+}
+
+.productCode {
+  font-size: 0.9rem;
+  color: #fe4f00;
+  margin-bottom: 6px;
+}
+
+.wholeSellerNameWrapper {
+  padding: 10px;
+  background: #f7f7f7;
+  display: block;
+  margin-top: 15px;
+}
+
+.wholeSellerName {
+  color: #666;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.desktopRight {
+  width: 100%;
+}
+.desktopLeft {
+  width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+  .desktopLeft {
+    padding-right: 2rem;
+    width: 70%;
+  }
+  .desktopRight {
+    width: 30%;
+  }
+}

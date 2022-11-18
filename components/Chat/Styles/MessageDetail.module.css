@@ -1,0 +1,236 @@
+.chatWrapperMessageDetail {
+    max-height: 75vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+  }
+  .messageContainer {
+    height: 500px;
+    min-height: calc(100% - 93px);
+    max-height: calc(100% - 93px);
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .messageContainer > div {
+    overflow-y: visible
+  }
+  .chatItemMessageDetail,
+  .chatContainer{
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    overflow: scroll
+  }
+  .chatContainerLeft {
+    height: 100%;
+    overflow: scroll;
+    padding: 0;
+    border-right: 1px solid #f1f1f1;
+    -ms-overflow-style: none /* IE and Edge */;
+    scrollbar-width: none;
+  }
+  .chatInput {
+    background: #F7F9FA;
+    border: solid 1px #707070;
+    border-radius: 40px;
+    margin-right: 15px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    height: 15px;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: content-box;
+    margin-bottom: 10px;
+    resize: none !important;
+  }
+  .chatOwnerContainer {
+    display: flex;
+    flex-direction: row-reverse
+  }
+  .chatOtherContainer {
+    display: flex;
+    flex-direction: row
+  }
+
+  .chatOwnerText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+  }
+  .chatOwnerAvatar {
+    min-width: max-content;
+    margin-left: 15px
+  }
+  .textChatContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column
+  }
+  .chatPopupContainer {
+    flex: 1
+  }
+  .chatPopupWrapper{
+    position: absolute;
+    width: 70vw;
+    height: max-content;
+    min-height: 80vh;
+    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column
+  }
+  .listItemAvatar {
+    min-width: max-content;
+    margin-right: 15px;
+    min-width: 56px;
+    flex-shrink: 0;
+  }
+  .listItemAvatarChild {
+    margin-right: 10px
+  }
+  .chatWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  .chatHeader {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px
+  }
+  .chatHeaderMobile {
+    display: flex;
+    justify-content: space-between
+  }
+  .buttonViewMessageLabel {
+    font-size: 0.6rem
+  }
+  .listSubHeader {
+    font-size: 16px;
+    
+    font-weight: bold;
+    color: #006112
+  }
+
+  .listItem {
+    padding: 0
+  }
+  .divider {
+    background: rgba(112, 112, 112, 1);
+    margin-bottom: 15px;
+    margin-top: 15px
+  }
+  .avatar {
+    border: 3px solid #006112;
+    background: #F6F6F6
+  }
+ 
+  .ListItemTextPrimary{
+    color: #006112;
+    font-size: 18px;
+    text-align: right;
+    display: block;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .ListItemTextSecondary{
+    color: #4A4A4A;
+    font-size: 12px;
+    text-align: right;
+    
+    font-weight: normal;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    margin: 0;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .avatarDetail {
+    width: 40px;
+    height: 40px;
+    background: #F6F6F6;
+    border: 2px solid;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-shrink: 0;
+    
+    line-height: 1;
+    user-select: none;
+    border-radius: 50%;
+    justify-content: center;
+  }
+ .avatarDetail > svg {
+    color: #006112;
+    width: 75%;
+    height: 75%;
+    fill: currentColor;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+ }
+  .avatarFallBack{
+    color: #006112
+
+  }
+
+  .ItemTextSupplierPrimary{
+    font-size: 18px;
+    
+    color: #4A4A4A
+  }
+  .ItemTextSupplierSecondary{
+    font-size: 12px;
+    color: #006112;
+    font-weight: normal;
+    
+  }
+  .ItemTextPrimary{
+    font-size: 18px;
+    
+    color: #006112;
+    text-align: right
+  }
+  .ItemTextSecondary{
+    font-size: 12px;
+    color: #4A4A4A;
+    text-align: right;
+    
+    font-weight: normal
+  }
+  .messageContentSupplier {
+    width: max-content;
+    max-width: 60%;
+    align-self: flex-start;
+    background: #F6F6F6;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 5px;
+    color: #4A4A4A;
+    line-height: 18px;
+    white-space: pre-line
+  }
+  .messageContentOwner {
+    width: max-content;
+    max-width: 60%;
+    align-self: flex-end;
+    background: rgb(231 251 235);
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 5px;
+    color: #4A4A4A;
+    line-height: 18px;
+    white-space: pre-line
+  }

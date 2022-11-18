@@ -1,0 +1,46 @@
+.appBar {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f5f5f5;
+  position: static;
+  width: 100%;
+  display: flex;
+  z-index: 1100;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: #f7f9fa;
+  box-shadow: none !important;
+  color: #4a4a4a;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.tabs {
+  display: flex;
+  overflow: hidden;
+  min-height: 48px;
+  -webkit-overflow-scrolling: touch;
+}
+.tabsScroller {
+  flex: 1 1 auto;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tabsFlexContainer {
+  display: flex;
+}
+.wrapper {
+  width: 100%;
+}
+
+.indicator {
+  background-color: #2c7e25 !important;
+  border-radius: 20px 20px 0 0;
+  height: 7px !important;
+  position: absolute;
+  top: 0 !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}

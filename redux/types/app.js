@@ -1,0 +1,3 @@
+export const SET_FIRST_LOADING = "SET_FIRST_LOADING";
+export const SET_LAST_PATH = "SET_LAST_PATH";
+export const SET_AUTH_MODAL = "SET_AUTH_MODAL";
