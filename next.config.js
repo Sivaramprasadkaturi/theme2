@@ -34,7 +34,7 @@ module.exports =
       return config;
     },
     env: {
-      VID: 20210528108,
+      VID: 20221020666,
       PER_PAGE: 15,
       IS_PUBLISHED: false,
       PREVIEW_PROJECT_LINK: "https://b2bndemo1-preview.avetti.io/preview",

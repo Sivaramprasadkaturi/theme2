@@ -6,7 +6,7 @@ export const ACCOUNT_MESSAGES_LINK = `${LINK_DISTRIBUTION}/myaccountmessage.ajx?
 
 export const MENU_FETCH_LINK = (lang = "en") =>
   `${LINK_DISTRIBUTION}/uservices/1.0.2/menu/${VID}/category/Shop/lang/${lang}/?longdesc=1`;
-// https://b2cstartermarketplace-preview.avetti.io/preview/uservices/1.0.2/menu/20210528108/category/Shop/lang/en/?longdesc=1
+// https://b2cstartermarketplace-preview.avetti.io/preview/uservices/1.0.2/menu/20221020666/category/Shop/lang/en/?longdesc=1
 
 export const MENU_EXD_FETCH_LINK = `${LINK_DISTRIBUTION}/subcat.ajx?vid=${VID}&cid=72180&longdesc=all&showqty=yes`;
 export const BY_STYLE_MENU_FETCH_LINK = `${LINK_DISTRIBUTION}/subcat.ajx?vid=${VID}&cid=72167&level=1&longdesc=all&showqty=yes&_=1570632812521`;
@@ -29,7 +29,7 @@ export const CATEGORY_FETCH_LINK_FUNC = (
     lat && lng && distance ? `&lat=${lat}&long=${lng}&distance=${distance}` : ``
   }`;
 
-// https://b2cstartermarketplace-preview.avetti.io/preview/uservices/1.0.2/category-page/20210528108/cid/72181/lang/en
+// https://b2cstartermarketplace-preview.avetti.io/preview/uservices/1.0.2/category-page/20221020666/cid/72181/lang/en
 export const TYPEAHEADSEARCH_LINK = (lang = "EN", keyword) =>
   `${LINK_DISTRIBUTION}/typeaheadsearch.ajx?vid=${VID}&pagetile=AdvancedSearchUsingSolrNew&iu=${lang}&q=${keyword}`;
 

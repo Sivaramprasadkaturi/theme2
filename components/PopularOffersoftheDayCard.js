@@ -487,10 +487,11 @@ const StoreCard = props => {
               
 
               <div className="w-full image-wrapper popularImage">
-                <img
-                  src={`https://ik.imagekit.io/ofb/themes/AdobeStock_292691963_hj7SfEZKwc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665052309846`}
-                  alt={desc}
-                  className="imgWrapperProductsItem"
+              <img
+                    src={`https://ik.imagekit.io/ofb/starter/store/20180522154/assets/items/largeimages/${code}.jpg`}
+                    alt={desc}
+                    className="imgWrapperProductsItem"
+                 
                 />
               </div>
 

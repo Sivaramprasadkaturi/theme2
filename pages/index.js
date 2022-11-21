@@ -197,13 +197,13 @@ export async function getStaticProps({ locale }) {
     // const ShopCid = "557799";
     // const StoreCid = "557715";
     /* All Stores Data  */
-    const url = `${LINK_DISTRIBUTION}/uservices/1.0.2/category-page/${VID}/cid/558078/lang/en/`;
+    const url = `${LINK_DISTRIBUTION}/uservices/1.0.2/category-page/${VID}/cid/559229/lang/en/`;
 
     const res = await fetch(url);
     storesData = await res.json();
 
     /* featured products */
-    const featuredProducts = `${LINK_DISTRIBUTION}/uservices/1.0.2/category-page/${VID}/cid/558078/lang/en/`;
+    const featuredProducts = `${LINK_DISTRIBUTION}/uservices/1.0.2/category-page/${VID}/cid/559229/lang/en/`;
 
     const resFeaturedProducts = await fetch(featuredProducts);
     const featuredProductsData = await resFeaturedProducts.json();
@@ -273,12 +273,12 @@ export async function getStaticProps({ locale }) {
     });
 
     /* ShopBy Products */
-    const furl = `${LINK_DISTRIBUTION}/uservices/1.0.2/category-page/${VID}/cid/558078/lang/en/`;
+    const furl = `${LINK_DISTRIBUTION}/uservices/1.0.2/category-page/${VID}/cid/559229/lang/en/`;
 
     console.log('siva', VID);
 
    
-    const curl = `${LINK_DISTRIBUTION}/uservices/1.0.2/category-page/${VID}/cid/558078/lang/en/`;
+    const curl = `${LINK_DISTRIBUTION}/uservices/1.0.2/category-page/${VID}/cid/559229/lang/en/`;
 
    
 

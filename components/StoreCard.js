@@ -93,7 +93,7 @@ const StoreCard = props => {
       );
   };
 
-  const imageUrl = `https://ik.imagekit.io/ofb/dev/store/20180522154/assets/items/largeimages/${code}.jpg`;
+  const imageUrl = `https://ik.imagekit.io/ofb/starter/store/20180522154/assets/items/largeimages/${code}.jpg`;
   let storeName = title.replace(/ /g, "-").toLowerCase();
 
   const supplierCode = storeProps.Supplier_Item_Code?.replace(

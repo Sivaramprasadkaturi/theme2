@@ -23,7 +23,7 @@ import Drawer from "../../components/elements/Drawer/Drawer";
 import SortBy from "../../components/category/SortBy";
 import ProductCount from "../../components/category/ProductCount";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-
+import {Fade} from "react-awesome-reveal";
 import { i18n } from "../../next-i18next.config";
 
 const setFacetsAPI = (setFacets, facets) => {
@@ -72,11 +72,79 @@ const Wrapper = styled.div`
   .facetBreadcrumb {
     cursor: pointer;
   }
+  .sub-nav-wrapper {
+    background: url("https://ik.imagekit.io/ofb/themes/Mask_Group_5_qByvx6kru.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665383991372") !important;
+    /* background-size: cover !important; */
+    background-position-x: center !important;
+    background-position-y: top !important;
+    background-repeat: no-repeat !important;
+  }
+
+  
+
+  .sub-nav-menu {
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+    color: #000;
+    display: inline-flex;
+    width: 100%;
+    padding: 0px 0 0px 0;
+    position: relative;
+    flex-direction: row;
+  }
+
+  .sub-nav-title-desc-wrapper {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .sub-nav-title-desc-wrapper p{
+      width: 50%;
+      text-align: left;
+      letter-spacing: 0px;
+      color: #212B36;
+      opacity: 1;
+      margin-top: 10px;
+  }
+
+  .sub-nav-menu-title {
+    margin: 0;
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    padding-left: 0px;
+    letter-spacing: 0px;
+    color: #212B36;
+    opacity: 1;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+  }
+  .sub-nav-menu-title img{
+    width: 100px;
+    object-fit: contain;
+    margin-left: 20px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    background: url("https://ik.imagekit.io/ofb/themes/Mask_Group_5_qByvx6kru.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665383991372") !important;
+
+    .sub-nav-title-desc-wrapper p{
+      width: 100% !important;
+    }
+  }
 
   .facets-wrapper {
-    position: sticky;
-    top: 0;
-    z-index: 2;
+    position: fixed;
+    bottom: 0px;
+    z-index: 9999;
+    box-shadow: 0 0 10px #cdcdcd;
+    left: 0px;
   }
 
   .facetBreadcrumb:hover {
@@ -100,11 +168,10 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-    // margin-top: 35px;
   }
 
   .productsContainer {
-    // margin: 2px 10px;
+    margin: 2px 10px;
     display: flex;
   }
 
@@ -117,7 +184,45 @@ const Wrapper = styled.div`
       flex-basis: 100%;
     }
   }
-
+  .sub-nav-menu-title-business {
+    display: flex;
+    margin: 0 auto 15px;
+    position: relative;
+    width: 100%;
+}
+.sub-nav-menu-title-business h2 {
+  align-items: flex-start;
+  background-color: #fff;
+  color: #212B36;
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: normal;
+  line-height: normal;
+  padding-right: 15px;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+.sub-nav-menu-title-business h2 span{
+    margin-left: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #212B36;
+    opacity: 0.55;
+    font-weight: 400;
+    font-size: 24px;
+}
+.sub-nav-menu-title-business:after {
+  background-color: #cdcdcd;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 17px;
+  width: 99%;
+}
   @media only screen and (max-width: 900px) {
     .mobileSearch {
       margin-top: 80px;
@@ -134,18 +239,9 @@ const Wrapper = styled.div`
   //    margin-top: -80px;
   //  }
   //}
-
-  @media screen and (max-width: 430px)
-.mobile-filter-button {
-    margin-top: 76% !important;
-}
-
-.itemListElement{
-  margin-left: -84% !important;
-}
 `;
 
-const Store = ({ storesState, URLCapitalize }) => {
+const Store = ({ storesState, URLCapitalize, storeTitle }) => {
   console.log("storesState", storesState);
   const router = useRouter();
 
@@ -282,202 +378,73 @@ const Store = ({ storesState, URLCapitalize }) => {
     );
   };
 
-  const imageUrl = `https://ik.imagekit.io/ofb/dev/store/20180522154/assets/items/largeimages/${router.query.storeCode}.jpg`;
+  const imageUrl = `https://ik.imagekit.io/ofb/starter/store/20180522154/assets/items/largeimages/${router.query.storeCode}.jpg`;
 
   return (
-    <Container className="container_wrapper" style={{ width: "100%" }}>
+    <>
       <ExternalContentFromCMS place="supplier" position="Top" />
-      <Wrapper className="container_wrapper" style={{ width: "100%" }}>
-        {/*{storesState.length > 0 ? storesState[1].items.map((store)=> {*/}
-        {storesState.length > 0 && (
-          <>
-            {/* <div className="storesbanner-image-wrapper100"></div>
-          <h1 className="banner_brands">Brands</h1>
-          <h6 className="banner_brandsdescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</h6> */}
-            {/* <div className="storefront_container">
-  <img src="https://ik.imagekit.io/ofb/themes/Mask_Group_2_9Y8GPEN-B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667480971213" alt="Snow" style="width:100%;"/>
-  <div className="bottom-leftt">Bottom Left</div>
-  <div className="top-leftt">Top Left</div>
-  </div> */}
-            <ol
-              className="flex my-3 text-sm catBreadcrumbs catBreadcrumbsone"
-              itemScope
-              itemType="https://schema.org/BreadcrumbList"
-            >
-              <div style={{ display: "flex" }}>
-                <li
-                  itemProp="itemListElement"
-                  itemScope
-                  itemType="https://schema.org/ListItem"
-                  style={{color: "#8E9CB7",
-                    fontSize: "12px",
-                    marginLeft: "11px"}}
-                >
-
-          {/* <div><Link href={"/"}><a>Home</a></Link> / {data.description}</div> */}
-          <Link href={"/"}><a>Home</a></Link> /<Link href={"/stores/"}>
-                    <a itemProp="item" aria-label="item">
-                      <span itemProp="name" className="ml-1 capitalize">
-                        Stores
-                      </span>
-                    </a>
-                  </Link>
-                  <meta itemProp="position" content={1} />
-                </li>
-                {/* › */}
+      <Wrapper>
+      <Wrapper>
+      <Fade>
+      <div
+        className="sub-nav-wrapper"
+        style={{
+          width: "100%",
+          marginBottom: "30px"
+        }}
+      >
+        <Fade direction="left" delay={1e3} cascade damping={0.1} triggerOnce>
+        <div className="bred">
+          <div><Link href={"/"}><a>Home</a></Link> / {storeTitle}</div>
+        </div>
+        </Fade>
+        <div className="sub-nav-menu">
+          <div className="sub-nav-title-desc-wrapper">
+            <div>
+            <div className="App">
+      
+    </div>
+              <div>
+              <Fade direction="left" delay={1e3} cascade damping={0.2} triggerOnce>
+                <h2
+                  style={{ backgroundColor: "transparent" }}
+                  className="sub-nav-menu-title"
+                  
+                >{storeTitle} <img
+                src={imageUrl}
+                alt="store logo"
+              /></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                </Fade>
               </div>
-            </ol>
-
-            <div style={{ width: "96rem" }}>
-              <img
-                style={{ width: "100%" }}
-                src="https://ik.imagekit.io/ofb/themes/Mask_Group_2_9Y8GPEN-B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667480971213"
-                alt="main store banner"
-              />
             </div>
-            <ExternalContentFromCMS place="supplier" position="Middle" />
-            <Container>
-              <div className="grid grid-cols-2">
-                <img
-                  src={imageUrl.replace("ofb/dev/", "ofb/dev/tr:h-80,q-80/")}
-                  alt="store logo"
-                  className="store_logobrand"
-                />
-                <p className="brand-descriPtion">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore
-                </p>
-                {/*     <div className="flex items-center justify-center text-center mobileSearch">
-                  <input
-                    className="w-full"
-                    type="text"
-                    placeholder="Search this store.."
-                  />
-                </div> */}
+          </div>
+        </div>
+        {/* <CategoryBreadcrumb /> */}
+      </div>
+      </Fade>
+    </Wrapper>
 
-                {/* //store-info */}
-                {/* <div className="flex justify-end items-center mobileInfo">
-                  <div className="flex flex-col">
-                    <div
-                      className="flex items-center "
-                      style={{ fontSize: "14px" }}
-                    >
-                      <MdStar
-                        className="mr-2"
-                        style={{ fontSize: "18px", color: "#DC7863" }}
-                      />{" "}
-                      4.6 (200 ratings)
-                    </div>
-                    <div
-                      className="flex items-center justify-end cursor-pointer"
-                      style={{ fontSize: "18px", fontWeight: "600" }}
-                      onClick={() => setShowStoreInfo(!showStoreInfo)}
-                    >
-                      Store information
-                      {!showStoreInfo ? (
-                        <MdKeyboardArrowDown className="ml-2" />
-                      ) : (
-                        <MdKeyboardArrowUp className="ml-2" />
-                      )}
-                    </div>
-                  </div>
-                </div> */}
-              </div>
-
-              <div className={!showStoreInfo ? "storeInfo" : "storeInfo show"}>
-                <StoreAboutInfo />
-
-                {/* <div>
-                {hasuraSupplier && (
-                  <ul>
-                    <li>{hasuraSupplier.location}</li>
-                    <li>{hasuraSupplier.phone_number}</li>
-                  </ul>
-                )}
-              </div>
-              <div>{hasuraSupplier && hasuraSupplier.website}</div>
-              {hasuraSupplier && hasuraSupplier.description && (
-                <div>
-                  {hasuraSupplier.description.blocks.map(block => {
-                    const CustomTag = `${block.type.includes("header") ? "h2" : "p"
-                      }`;
-                    const styleKeys = Object.keys(block.data);
-                    let style = {};
-                    styleKeys.forEach(d => {
-                      const key = d
-                        .split("-")
-                        .map((e, i) => {
-                          if (i !== 0) {
-                            return e.charAt(0).toUpperCase() + e.slice(1);
-                          }
-                          return e;
-                        })
-                        .join("");
-
-                      style[key] = block.data[d];
-                    });
-
-                    return (
-                      <CustomTag style={{ ...style }}>{block.text}</CustomTag>
-                    );
-                  })}
-                </div>
-              )} */}
-              </div>
-            </Container>
-          </>
-        )}
-
+        
+<Container>
         <>
-          {/* <ol
-            className="flex my-3 text-sm catBreadcrumbs"
-            itemScope
-            itemType="https://schema.org/BreadcrumbList"
-          >
-            <div style={{ display: "flex" }}>
-              <li
-                itemProp="itemListElement"
-                itemScope
-                itemType="https://schema.org/ListItem"
-              >
-                <Link href={"/stores/"}>
-                  <a itemProp="item" aria-label="item">
-                    <span itemProp="name" className="ml-2 capitalize">
-                      Stores
-                    </span>
-                  </a>
-                </Link>
-                <meta itemProp="position" content={1} />
-              </li>
-              ›
-            </div>
-          </ol> */}
-
-          {/* <div className="products-featured"><div className="hr-lines">Shop by Category</div><div className="prev-nexticons"><a href="#" className="previous9 previous8">‹</a><a href="#" className="next9 previous8">›</a></div></div> */}
-
-          {/* <div className="products-featured brandedproducts-popular"><div className="hr-lines horiz-lines">Popular Products</div>
-            </div> */}
-          {console.log("")}
+        <div style={{display: "flex"}}> 
+        <div class="sub-nav-menu-titleee sub-nav-menu-title-business"><h2> {storeTitle} <span>(<ProductCount productCount={numberOfItems} />)</span></h2></div>
+        <div>
+        <SortBy productCount={numberOfItems} setSortBy={setSortBy} />
+        </div>
+        </div>
+        
           {storesState && storesState.length > 0 ? (
             <div className="facets-and-category-items-wrapper flex-row block">
               <div className="facets-wrapper w-full">{renderFacets()}</div>
 
-              {/* <div className="flex flex-col w-full " style={{marginTop: "74px",
-    marginLeft: "auto",
-    marginRight: "-138px"}}> */}
               <div className="flex flex-col w-full ">
                 <div className="sortby-product-count-wrapper">
-                 
-                 {/* <div style={{display: "flex"}}> */}
-                <div className="productTotalCount">
-                    <ProductCount productCount={numberOfItems} />
-                  </div>
-                  <div>
-                  <SortBy productCount={numberOfItems} setSortBy={setSortBy} />
-                  </div>
-                  {/* </div> */}
-
-
+                  
+                  <p style={{ marginLeft: "1rem" }}>
+                   
+                  </p>
                 </div>
 
                 <div className="flex flex-wrap w-full">
@@ -519,7 +486,7 @@ const Store = ({ storesState, URLCapitalize }) => {
                     />
                   </div>
                 )}
-                <div className="productsList">
+                <div className="productsList" style={{width: "100%"}}>
                   <StoreProducts
                     initialStoreData={initialStoreData}
                     items={categories}
@@ -535,7 +502,7 @@ const Store = ({ storesState, URLCapitalize }) => {
                     numOfPages={numOfPages}
                     currentScrollPage={currentScrollPage}
                     setCurrentScrollPage={setCurrentScrollPage}
-                    storeCid={"531764"}
+                    storeCid={"558943"}
                     URLCapitalize={URLCapitalize}
                   />
                 </div>
@@ -546,9 +513,11 @@ const Store = ({ storesState, URLCapitalize }) => {
               <h2 className="mt-20">No results are found </h2>
             </div>
           )}
+         
         </>
+        </Container>
       </Wrapper>
-    </Container>
+      </>
   );
 };
 const categoriesToIgnore = [
@@ -625,6 +594,8 @@ export async function getStaticProps({ params, locale }) {
   // ).cid;
   // console.log({ params, storeCid });
 
+  const storeTitle = slug?.[0];
+
   const URLWithoutSpace = URL.split("-");
 
   //capitalize first letter of each word on URL and replace all spaces with %20 for API call
@@ -632,7 +603,7 @@ export async function getStaticProps({ params, locale }) {
     return word[0].toUpperCase() + word.substring(1);
   }).join("%20");
 
-  console.log("URLCapitalize", `'${URLCapitalize}'`);
+  console.log("URLCapitalize", URLCapitalize, `'${URLCapitalize}'`);
 
   /*   let _categoryState, _payload;
   try {
@@ -653,8 +624,9 @@ export async function getStaticProps({ params, locale }) {
   } */
 
   const urlToFetch = categoryUrl({
-    id: 531764,
-    query: `&Sellers=${URLCapitalize}`
+    id: 558943,
+    //query: `&Sellers=${URLCapitalize}`
+    query: `&Sellers=Allen%20Solly`
   });
 
   console.log("urlToFetch", urlToFetch);
@@ -670,8 +642,8 @@ export async function getStaticProps({ params, locale }) {
         { i18n }
       )),
       storesState,
-
-      URLCapitalize
+      URLCapitalize,
+      storeTitle
     },
     revalidate: 3600 * 24
   };

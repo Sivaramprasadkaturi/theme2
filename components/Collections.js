@@ -102,7 +102,7 @@ function Collections() {
   /* useEffect(() => {
     const navCats = {
       name: "Shop",
-      vid: "20210528108",
+      vid: "20221020666",
       cid: "531751",
       thumbnail: "No Image",
       image: "No Image",
